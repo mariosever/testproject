@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navigacija {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 15px;
+  margin-right: 20px;
+  font-size: 13px;
+}
+
+.navigacija a {
+  color: #000;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.navigacija a:hover {
+  text-decoration: underline;
+}
+
+.avatar {
+  display: inline-block;
+  background-color: #34a853;
+  color: #fff;
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.logo {
+  width: 272px;
+  margin-top: 185px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo img {
+  width: 272px
+}
+
+.search {
+  width: 580px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-input {
+  width: 100%;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.form-btn {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn {
+  height: 36px;
+  line-height: 27px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  cursor: default;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+}
+
+.btn:hover {
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #222;
+}
+
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  line-height: 40px;
+  font-size: 15px;
+}
+
+.footer-left {
+  float: left;
+  margin-left: 15px;
+}
+
+.footer-right {
+  float: right;
+  margin-right: 15px;
+}
+
+.footer a {
+  color: rgba(0,0,0,.54);
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
